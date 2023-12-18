@@ -48,7 +48,12 @@ public class Bot {
     }
 
     private String getAnswer(Question question) {
-        System.out.print("User: ");
+        String name = this.user.getInfo("name");
+        String firstname = name != null
+                ? name.split(" ")[0].substring(0, 1).toUpperCase()
+                + name.split(" ")[0].substring(1)
+                : null;
+        System.out.print(name != null ? firstname + ": " : "User: ");
         String answer = scanner.nextLine();
 
         if (question.key.isEmpty()) return "";
