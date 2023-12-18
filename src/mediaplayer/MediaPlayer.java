@@ -1,2 +1,19 @@
-package mediaplayer;public class MediaPlayer {
+package mediaplayer;
+
+public class MediaPlayer {
+    public void playMedia(Media media) {
+        media.play();
+    }
+
+    public void pauseMedia(Media media) {
+        media.pause();
+    }
+
+    public void stopMedia(Media media) {
+        media.stop();
+    }
+
+    public void seekMedia(Media media, int position) {
+        media.seek(position);
+    }
 }
