@@ -1,7 +1,6 @@
-package chatbot.main;
+package chatbot.main.question;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import chatbot.main.Validator;
 
 public class Question {
     public String message;
@@ -11,13 +10,13 @@ public class Question {
     public String pattern;
 
     public boolean isValid(String answer) {
-        if(pattern == null || pattern.isEmpty()) {
+        if (pattern == null || pattern.isEmpty()) {
             return true;
         }
         return Validator.isValid(answer, pattern);
     }
 
-    public Question(String message, QuestionRel rel, String key ) {
+    public Question(String message, QuestionRel rel, String key) {
         this.message = message;
         this.rel = rel;
         this.key = key;
@@ -25,6 +24,14 @@ public class Question {
 
     public void setPattern(String pattern) {
         this.pattern = pattern;
+    }
+
+    public void setMessage(String msg) {
+        this.message = msg;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 }
 

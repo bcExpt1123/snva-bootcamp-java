@@ -1,10 +1,12 @@
-package chatbot.main;
+package chatbot.main.car;
 
 import java.util.HashMap;
 
-class Car extends HashMap<String, String> {
+public class Car extends HashMap<String, String> {
 
     public HashMap<String, CarModel> models = new HashMap<>();
+    public HashMap<String, PaymentOption> lease = new HashMap<>();
+    public HashMap<String, PaymentOption> finance = new HashMap<>();
     public void setInfo(String key, String value) {
         this.put(key, value);
     }

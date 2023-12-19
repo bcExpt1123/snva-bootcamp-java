@@ -1,4 +1,4 @@
-package chatbot.main;
+package chatbot.main.car;
 
 public class CarModel {
     public String modelId;

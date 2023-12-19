@@ -1,4 +1,4 @@
-package chatbot.main;
+package chatbot.main.question;
 
 public enum QuestionRel {
     USER,
