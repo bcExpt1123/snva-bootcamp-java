@@ -1,4 +1,4 @@
-package mediaplayer.v1;
+package mediaplayer;
 
 public class MediaPlayer {
     public void playMedia(Media media) {

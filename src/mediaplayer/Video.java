@@ -1,4 +1,4 @@
-package mediaplayer.v1;
+package mediaplayer;
 
 public class Video implements Media {
     // Implementation specific to video files
