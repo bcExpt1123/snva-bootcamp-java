@@ -1,4 +1,4 @@
-package mediaplayer;
+package mediaplayer.v1;
 
 /**
  * You are building a media player application

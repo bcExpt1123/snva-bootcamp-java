@@ -1,4 +1,4 @@
-package mediaplayer;
+package mediaplayer.v1;
 
 public interface Media {
     void play();

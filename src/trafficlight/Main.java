@@ -13,15 +13,15 @@ public class Main {
     public static void main(String[] args) {
         TrafficLight trafficLight = new TrafficLight();
 
-        trafficLight.displayState();  // Output: "Traffic light is green"
+        trafficLight.displayState();
 
         trafficLight.changeState();
-        trafficLight.displayState();  // Output: "Traffic light is yellow"
+        trafficLight.displayState();
 
         trafficLight.changeState();
-        trafficLight.displayState();  // Output: "Traffic light is red"
+        trafficLight.displayState();
 
         trafficLight.changeState();
-        trafficLight.displayState();  // Output: "Traffic light is green"
+        trafficLight.displayState();
     }
 }

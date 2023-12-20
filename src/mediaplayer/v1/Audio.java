@@ -1,4 +1,4 @@
-package mediaplayer;
+package mediaplayer.v1;
 
 public class Audio implements Media {
     // Implementation specific to audio files
