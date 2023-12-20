@@ -5,7 +5,7 @@ public class Audio implements Media {
 
     public void play() {
         // Play audio logic
-        System.out.println("Play audio.");
+        System.out.println("Play Audio.");
     }
 
     public void pause() {
@@ -16,10 +16,5 @@ public class Audio implements Media {
     public void stop() {
         // Stop audio logic
         System.out.println("Stop Audio.");
-    }
-
-    public void seek(int position) {
-        // Seek audio logic
-        System.out.println("Seek Audio " + position);
     }
 }

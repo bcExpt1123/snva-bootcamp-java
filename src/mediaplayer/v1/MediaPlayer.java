@@ -12,8 +12,4 @@ public class MediaPlayer {
     public void stopMedia(Media media) {
         media.stop();
     }
-
-    public void seekMedia(Media media, int position) {
-        media.seek(position);
-    }
 }
