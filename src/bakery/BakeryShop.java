@@ -3,6 +3,25 @@ package bakery;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/**
+ * Task 1
+ * ----------
+ * Bakery shop
+ * ----------
+ * Bala takes care of accounts
+ * at the Bakery shop
+ * The shop sells the following pastries:
+ * - black current - $.5
+ * - white forest - $.3
+ * - chocolate - $.4
+ * - red velvet - $.45
+ * each customer will buy at least one each,
+ * take the number of pastries as input
+ * calculate the amount for each pastry,
+ * find the total,
+ * print item wise bill
+ */
+
 public class BakeryShop {
     public static void main(String[] args) {
         // Define the prices of pastries

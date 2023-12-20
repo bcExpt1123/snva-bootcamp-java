@@ -1,6 +1,10 @@
 package trafficlight;
 
 /**
+ * Task 3
+ * -------------
+ * Traffic lights
+ * -------------
  * Design a system that simulates
  * a traffic light.
  * How would you use interfaces,
