@@ -1,7 +1,9 @@
 package onlinequiz;
 
+import onlinequiz.quiz.Quiz;
+
 /**
- * Task 6
+ * Task 6 (Not finished)
  * -------------------------
  *  Online Quiz Platform
  * -------------------------
@@ -26,4 +28,8 @@ package onlinequiz;
  * messages as and when necessary
  */
 public class Main {
+    public static void main(String[] args) {
+        Quiz quiz = new Quiz();
+        quiz.run();
+    }
 }
